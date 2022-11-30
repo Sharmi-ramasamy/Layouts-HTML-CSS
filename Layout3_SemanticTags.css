@@ -1,8 +1,9 @@
-/* body {
-    background-image: url("../Images/Nature.jpg");
-    background-repeat: no-repeat;
-
-} */
+.pongaldetail {
+    background: url("../Images/Jallikattu.jpeg");
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
 
 #main {
     font-family: cursive;
@@ -15,18 +16,17 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.demo {
+.festival {
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     justify-content: space-evenly;
-
+    font-family: serif;
 }
 
-.demo article {
+.festival article {
     width: 500px;
-
 }
 
 .pic {
@@ -41,4 +41,10 @@
 
 p {
     text-align: justify;
+}
+
+section {
+    font-weight: bolder;
+    font-size: 17px;
+
 }
